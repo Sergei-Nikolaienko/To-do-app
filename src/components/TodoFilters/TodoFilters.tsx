@@ -2,7 +2,6 @@ import React from 'react';
 import { Todo } from '../../types/Todo';
 import Navigation from '../Navigation';
 
-
 type Props = {
   todos: Todo[];
   clearCompleted: () => void;

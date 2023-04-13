@@ -6,11 +6,11 @@ import TodoApp from './components/TodoApp';
 export const App: React.FC = () => {
   return (
     <Routes>
-      <Route path='/' element={<TodoApp />}>
+      <Route path="/" element={<TodoApp />}>
         <Route index />
-        <Route path='/active' element={<TodoApp />} />
-        <Route path='/completed' element={<TodoApp />} />
-        <Route path='*' element={(<Navigate to='/' />)} />
+        <Route path="/active" element={<TodoApp />} />
+        <Route path="/completed" element={<TodoApp />} />
+        <Route path="*" element={(<Navigate to="/" />)} />
       </Route>
     </Routes>
   );
