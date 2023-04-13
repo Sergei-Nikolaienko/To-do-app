@@ -1,3 +1,3 @@
 # To-do App Project
 
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+    - [DEMO LINK](https://Sergei-Nikolaienko.github.io/<repo_name>/)
